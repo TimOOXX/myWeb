@@ -118,7 +118,7 @@ main{
 #skill{
     height: auto;
     padding: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .arrange{
@@ -138,12 +138,12 @@ article{
 .card1{
     height: max-content;
     text-align: left;
-    padding: 5px 20px;
+    padding: 5px 5%;
 
     grid-area: 1/2/2/6;
 }
 .card2{
-    width: 700px;
+    width: 100%;
     height: max-content;
     text-align: left;
     padding: 5px 5%;
@@ -151,7 +151,7 @@ article{
     grid-area: 2/3/3/7;
 }
 .card3{
-    width: 700px;
+    width: 100%;
     height: max-content;
     text-align: left;
     padding: 5px 15px;
@@ -195,18 +195,22 @@ article{
 }
 
 .picture{
-    display: flex;
+    text-align: center;
 
-    padding: 20px;
+    padding: 10px;
     margin-top: -300px;
 }
 
-.picture img{
+.picture div{
+    display: inline-block;
+
+    padding: 0px 1%;
+    border-radius: 10px;
+}
+
+.picture div img{
     width: auto;
     height: 250px;
-
-    padding: 0px 25px;
-    border-radius: 10px;
 }
 
 #aboutMe{
@@ -291,6 +295,11 @@ h5{
         font-size: 16px;
     }
 
+    nav{
+        text-align: center;
+        padding-right: 0px;
+    }
+
     header{
         height: auto;
 
@@ -340,6 +349,26 @@ h5{
 
     .card6 p{
         font-size: 14px;
+    }
+
+    
+    .picture{
+        text-align: center;
+
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+    .picture div{
+        display: inline-block;
+
+        padding: 0px 5px;
+        border-radius: 10px;
+    }
+
+    .picture div img{
+        width: 100%;
+        height: auto;
     }
 
     .move{
