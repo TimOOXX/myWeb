@@ -70,6 +70,12 @@ nav a:hover{
     color: #1D2D44;
 }
 
+.link{
+    font-size: 16px;
+    color: #1D2D44;
+    text-decoration: none;
+}
+
 header{
     text-align: center;
     height: auto;
@@ -116,10 +122,10 @@ main{
 }
 
 .arrange{
-    padding: 50px 75px;
+    padding: 50px 75px 0px 75px;
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
 }
 
 article{
@@ -130,27 +136,27 @@ article{
 }
 
 .card1{
-    width: 400px;
-    height: auto;
+    height: max-content;
     text-align: left;
-    padding: 5px 80px;
+    padding: 5px 20px;
 
-    grid-area: 1/1/2/3;
+    grid-area: 1/2/2/6;
 }
 .card2{
-    width: 600px;
-    height: auto;
+    width: 700px;
+    height: max-content;
+    text-align: left;
+    padding: 5px 5%;
+
+    grid-area: 2/3/3/7;
+}
+.card3{
+    width: 700px;
+    height: max-content;
     text-align: left;
     padding: 5px 15px;
 
-    grid-area: 1/4/2/7;
-}
-.card3{
-    height: auto;
-    text-align: left;
-    padding: 5px 25px;
-
-    grid-area: 2/2/3/6;
+    grid-area: 3/1/4/5;
 }
 
 #experience{
@@ -188,10 +194,25 @@ article{
     color: #1D2D44;
 }
 
+.picture{
+    display: flex;
+
+    padding: 20px;
+    margin-top: -300px;
+}
+
+.picture img{
+    width: auto;
+    height: 250px;
+
+    padding: 0px 25px;
+    border-radius: 10px;
+}
+
 #aboutMe{
     height: auto;
     padding: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .move{
@@ -202,6 +223,22 @@ article{
     height: auto;
     text-align: left;
     padding: 10px 50px;
+    margin-bottom: 30px;
+}
+
+.slogan{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 標楷體;
+}
+
+.space{
+    background-color: #1D2D44;
+    color: #F0EBD8;
+
+    padding: 20px;
+    border-radius: 20px;
 }
 
 footer{
