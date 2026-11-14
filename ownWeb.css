@@ -205,12 +205,12 @@ article{
     display: inline-block;
 
     padding: 0px 1%;
-    border-radius: 10px;
 }
 
 .picture div img{
     width: auto;
     height: 250px;
+    border-radius: 10px;
 }
 
 #aboutMe{
